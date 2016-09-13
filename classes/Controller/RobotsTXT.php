@@ -20,8 +20,6 @@ class Controller_RobotsTXT extends Controller
 
     protected function get_denied_content()
     {
-        return  'User-agent: *'.
-                "\r\n".
-                'Disallow: /';
+        return View::factory('robots.txt.deny')->render();
     }
 }
