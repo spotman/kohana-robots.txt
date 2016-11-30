@@ -1,0 +1,24 @@
+{
+	"name" : "spotman/kohana-robots.txt",
+	"description" : "Kohana module for providing robots.txt file",
+	"type" : "kohana-module",
+	"keywords" : [
+		"kohana",
+		"robots.txt",
+		"robots"
+	],
+	"license" : "MIT",
+	"homepage" : "https://github.com/spotman/kohana-robots.txt",
+	"authors" : [{
+			"name" : "Spotman",
+			"email" : "i.am@spotman.ru",
+			"role" : "author"
+		}
+	],
+	"require" : {
+		"php" : ">=5.3.0"
+	},
+	"support" : {
+		"email" : "i.am@spotman.ru"
+	}
+}
